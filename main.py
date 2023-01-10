@@ -11,4 +11,4 @@ cs_bot.register_adapter(sop_bot.Adapter)
 cs_bot.load_plugin("plugins.echo")
 
 if __name__ == '__main__':
-    cs_bot.run(host="127.0.0.1", port=3000)
+    cs_bot.run()
